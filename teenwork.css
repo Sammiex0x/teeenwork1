@@ -1,3 +1,10 @@
-test {
+.test {
     color: darkred
+}
+
+.test3 {
+    color:blue
+}
+body {
+    background: lightblue
 }
