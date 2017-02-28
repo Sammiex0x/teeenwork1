@@ -14,14 +14,11 @@ body {
     
 }
 
-.test6 {
-    text-align: justify;
-    text-justify: center;
-}
-.test5 {
-    text-justify: inter-cluster
-}
 
 img {
     width: 450px
 }
+
+
+
+
