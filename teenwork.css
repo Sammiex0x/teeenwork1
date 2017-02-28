@@ -11,14 +11,18 @@
 }
 body {
     background: lightblue
+        
+}
+
+img {
+    width:800px
     
 }
 
-
-img {
-    width: 450px
+body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: bold;
+        
 }
-
-
 
 
