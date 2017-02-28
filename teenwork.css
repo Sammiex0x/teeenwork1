@@ -1,11 +1,13 @@
 .test {
-    color: darkred
+    color: darkgray
 }
 
 .test3 {
-    color:blue
+    color:darkred
      }
-     
+.test4 {
+    color:gray
+}
 body {
     background: lightblue
 }
@@ -13,18 +15,9 @@ body {
 .test2 {
     text-align: justify
 }
+.test5 {
+    text-justify: inter-cluster
+}
 img {
-    width:500px
-}
-p.solid {
-    border-style: solid
-}
-
-li {
-    display: inline;
-}
-
-
-.test3 {
-    fon
+    width:450px
 }
