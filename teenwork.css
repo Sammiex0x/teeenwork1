@@ -5,20 +5,23 @@
 .test3 {
     color:darkblue
      }
+
 .test4 {
     color:red
 }
 body {
     background: lightblue
+    
 }
 
-.test2 {
-    text-align: justify
+.test6 {
+    text-align: justify;
+    text-justify: center;
 }
 .test5 {
     text-justify: inter-cluster
 }
 
 img {
-    width:600px
+    width: 450px
 }
