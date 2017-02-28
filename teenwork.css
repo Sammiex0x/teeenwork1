@@ -4,7 +4,27 @@
 
 .test3 {
     color:blue
-}
+     }
+     
 body {
     background: lightblue
+}
+
+.test2 {
+    text-align: justify
+}
+img {
+    width:500px
+}
+p.solid {
+    border-style: solid
+}
+
+li {
+    display: inline;
+}
+
+
+.test3 {
+    fon
 }
