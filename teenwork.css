@@ -1,6 +1,5 @@
 body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
 }
 
 .test {
@@ -26,6 +25,8 @@ img {
 .header btn {
         float: right;
 }
-
+.header h1 {
+      font-size: 150%;  
+}
 
 
