@@ -1,28 +1,30 @@
-.test {
-    color: darkgray
-}
-
-.test3 {
-    color:darkblue
-     }
-
-.test4 {
-    color:darkred
-}
-body {
-    background: lightblue
-        
-}
-
-img {
-    width:600px
-    
-}
-
 body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: bold;
-        
+        background: lightblue;
 }
+
+.test {
+    color: darkgray;
+}
+
+.test3 {
+    color:darkblue;
+     }
+
+.test4 {
+    color:darkred;
+}
+
+
+img {
+    size: 500px
+}
+    
+}
+.header btn {
+        float: right;
+}
+
 
 
