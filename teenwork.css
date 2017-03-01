@@ -1,7 +1,7 @@
 body {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-style: bold;
-        background: lightblue;
+        background: white;
 }
 
 .test {
@@ -18,7 +18,7 @@ body {
 
 
 img {
-    size: 500px
+    size: 200px
 }
     
 }
