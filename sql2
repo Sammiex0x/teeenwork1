@@ -1,0 +1,14 @@
+CREATE TABLE Trainer (
+    TrainerID int,
+    TeenworkContactName varchar(255),
+    PhoneNumber int,
+    ExperiencedIn varchar(255),
+    ExperienceExample (255)
+);
+
+
+  INSERT INTO Trainers VALUES (101,'Susie Que','Mary Brown', 250-388-7788,'Disablities', 'She has expensive experience in Visual Imparements');
+  INSERT INTO Trainers VALUES (102, 'Martha Black','Mary Brown', 250-388-1234,'At_Work', 'An expert in at work etiquette.');
+  INSERT INTO Trainers VALUES (103,'John Doe','Danica Gold','Transportation', 'John has helped many people navigate the bus system');
+ 
+  
