@@ -7,10 +7,14 @@ body {
 }
 
 .test3 {
-    color:darkblue;
+    color: #0000ff;
     font-style: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+<<<<<<< HEAD
     font-size: 150%;
+=======
+      font-size: 50px;   
+>>>>>>> bd372e143e3ff9ec0631cbbc636f6ad4c58d2091
      }
 
 .test4 {
@@ -26,8 +30,6 @@ img {
 .header btn {
         float: right;
 }
-.test3 {
-      font-size: 150%;  
-}
+
 
 
