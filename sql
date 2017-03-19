@@ -12,10 +12,11 @@ CREATE TABLE Training_Manuals (
  
   INSERT INTO Training_Manuals VALUES (4,'Kiijii','How to find a job using Kiikii', 'Job Seeking');
   INSERT INTO Training_Manuals VALUES (5,'Monster','How to find a job using Monster','Job Seeking');
+  INSERT INTO Training_Manuals VALUES (6,'Resumes', 'How to write a resume', 'Job Seeking');
   
-  INSERT INTO Training_Manuals VALUES (6,'Visual Imparements','Helpful hints for people with visual imparements','Disability');
-  INSERT INTO Training_Manuals VALUES (7,'Physical Disabilities','Helpful hints for people with physical disabilities','Disability');
-  INSERT INTO Training_Manuals VALUES (8,'Stress','Helpful hints for people dealing with stress','Disability');
+  INSERT INTO Training_Manuals VALUES (7,'Visual Imparements','Helpful hints for people with visual imparements','Disability');
+  INSERT INTO Training_Manuals VALUES (8,'Physical Disabilities','Helpful hints for people with physical disabilities','Disability');
+  INSERT INTO Training_Manuals VALUES (9,'Stress','Helpful hints for people dealing with stress','Disability');
   
-  INSERT INTO Training_Manuals VALUES (9,'Appearance Matters At Work','This manual points out the importance of your appearance at work and how to improve yours.','At Work');
-  INSERT INTO Training_Manuals VALUES (10,'Etiquette At Work','This manual points out the importance of your etiquette at work and how to improve yours.','At Work');
+  INSERT INTO Training_Manuals VALUES (10,'Appearance Matters At Work','This manual points out the importance of your appearance at work and how to improve yours.','At Work');
+  INSERT INTO Training_Manuals VALUES (11,'Etiquette At Work','This manual points out the importance of your etiquette at work and how to improve yours.','At Work');
