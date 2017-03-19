@@ -10,7 +10,7 @@ CREATE TABLE Training_Manuals (
   INSERT INTO Training_Manuals VALUES (2,'Parent Driving','How to get to work with your parent driving you.','Transportation');
   INSERT INTO Training_Manuals VALUES (3,'Walking','How to get to work by walking.','Transportation');
  
-  INSERT INTO Training_Manuals VALUES (4,'Kiijii','How to find a job using Kiikii', 'Job Seeking');
+  INSERT INTO Training_Manuals VALUES (4,'Kiijii','How to find a job using Kiijii', 'Job Seeking');
   INSERT INTO Training_Manuals VALUES (5,'Monster','How to find a job using Monster','Job Seeking');
   INSERT INTO Training_Manuals VALUES (6,'Resumes', 'How to write a resume', 'Job Seeking');
   
