@@ -14,10 +14,11 @@ CREATE TABLE Training_Manuals (
   INSERT INTO Training_Manuals VALUES (5,'Monster','How to find a job using Monster','Job Seeking');
   INSERT INTO Training_Manuals VALUES (6,'Resumes', 'How to write a resume', 'Job Seeking');
   
-  INSERT INTO Training_Manuals VALUES (7,'Visual Imparements','Helpful hints for people with visual imparements','Disability');
-  INSERT INTO Training_Manuals VALUES (8,'Physical Disabilities','Helpful hints for people with physical disabilities','Disability');
-  INSERT INTO Training_Manuals VALUES (9,'Stress','Helpful hints for people dealing with stress','Disability');
-  INSERT INTO Training_Manuals VALUES (10, 'Cognitive', Helpful hints for people with cognitive disabilities', Disability');
+  INSERT INTO Training_Manuals VALUES (7,'Visual Impairments','Helpful hints for people with visual impairments','Disability');
+  INSERT INTO Training_Manuals VALUES (8, 'Hearing Impairments', Helpful hints for people with hearing impairmants', 'Disability);
+  INSERT INTO Training_Manuals VALUES (9,'Physical Disabilities','Helpful hints for people with physical disabilities','Disability');
+  INSERT INTO Training_Manuals VALUES (10,'Stress','Helpful hints for people dealing with stress','Disability');
+  INSERT INTO Training_Manuals VALUES (11, 'Cognitive', Helpful hints for people with cognitive disabilities', Disability');
   
-  INSERT INTO Training_Manuals VALUES (11,'Appearance Matters At Work','This manual points out the importance of your appearance at work and how to improve yours.','At Work');
-  INSERT INTO Training_Manuals VALUES (12,'Etiquette At Work','This manual points out the importance of your etiquette at work and how to improve yours.','At Work');
+  INSERT INTO Training_Manuals VALUES (12,'Appearance Matters At Work','This manual points out the importance of your appearance at work and how to improve yours.','At Work');
+  INSERT INTO Training_Manuals VALUES (13,'Etiquette At Work','This manual points out the importance of your etiquette at work and how to improve yours.','At Work');
