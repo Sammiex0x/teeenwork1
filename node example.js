@@ -29,11 +29,11 @@ connection.end();
 
 app.get('/', function(req, res) {
 
-    res.render('simple1', {Transportation })
+    res.render('teenwork1', {Transportation })
 =
 
 // about page 
-app.get('/teenwork', function(req, res) {
+app.get('/teenwork1', function(req, res) {
     var sentence = "this is a test about page, passed as a variable through ejs";
     var drinks = [
         { name: 'bus' },
