@@ -30,7 +30,6 @@ connection.end();
 app.get('/', function(req, res) {
 
     res.render('teenwork1', {Transportation })
-=
 
 // about page 
 app.get('/teenwork1', function(req, res) {
@@ -40,7 +39,7 @@ app.get('/teenwork1', function(req, res) {
         { name: 'walking'},
         { name: 'parents driving' }
     ];
-    res.render('about', {
+    res.render('teenwork', {
         drinks: drinks,
         sentence: sentence
     });
