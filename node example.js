@@ -33,7 +33,7 @@ app.get('/', function(req, res) {
 =
 
 // about page 
-app.get('/about', function(req, res) {
+app.get('/teenwork', function(req, res) {
     var sentence = "this is a test about page, passed as a variable through ejs";
     var drinks = [
         { name: 'bus' },
