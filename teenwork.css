@@ -1,5 +1,7 @@
 body {
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;       
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font: bold;    
+        color: navy;
 }
 
 .test {
@@ -7,24 +9,44 @@ body {
 }
 
 .test3 {
-    color: #0000ff;
+    color: navy;
     font-style: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
      }
 
-.test4 {
+.red {
     color:darkred;
 }
 
 
 img {
-    size: 200px
+    size: 200px;
 }
     
-}
 .header btn {
-        float: right;
+        float: left;
 }
 
+.main {
+    color: navy;
+    font: bold;
+}
+h1 {
+    font-size: 50px;
+}
 
+h2 {
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
 
+p {
+    font-size: 20px;
+}
+
+#map {
+        height: 300px;
+        width: 100%;
+       }
