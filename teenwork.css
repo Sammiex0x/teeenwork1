@@ -12,10 +12,12 @@ body {
     color: navy;
     font-style: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
      }
 
 .red {
     color:darkred;
+    font-size: 20px;
 }
 
 
@@ -30,6 +32,7 @@ img {
 .main {
     color: navy;
     font: bold;
+    font-size: 20px;
 }
 h1 {
     font-size: 50px;
