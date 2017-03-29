@@ -27,23 +27,26 @@
 
 <body class="container">
 
+
       <main>
         <div class="test3">
             <h1> Welcome to Teenwork Training Manuals </h1>
-            <p class="test4"> Please search for Training material </p>
+            <h2 class="test4"> Please Search for Training Manauls by Category </h2>
             <center> <h3 class="test"> Recent Updates on Category </h3> </center>
         </div>
         <form action="/query" method="post">
-                <label for="queryStr">Enter Search for Training Material </label>
+                <label for="queryStr"> Example: "Disability" </label>
             <input id="queryStr" type="text" name="queryStr" placeholder="enter search">
             <button id="execute" type="submit">Find</button>
         </form>
  
         <h2>Results</h2>
+        <h4>
         <ul>
-            <% Transportation.forEach(function(item) { %>
-                <li><%= item.Title %> - <%= item.Category %></li>
+           <% listings.forEach(function(item) { %> 
+            <li><%= item.Title %> - <%= item.Description %> - <%= item.Category %> off</li> 
             <% }); %>
+            </h4>
         </ul>
     </main>
 
