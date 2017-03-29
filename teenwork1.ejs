@@ -44,7 +44,7 @@
       <main>
         <div class="test3">
             <h1> Welcome to Teenwork Training Manuals </h1>
-            <h2 class="test4"> Please Search for Training material </h2>
+            <h2 class="test4"> Please Search for Training Manauls </h2>
             <center> <h3 class="test"> Recent Updates on Category </h3> </center>
         </div>
         <form action="/query" method="post">
@@ -54,14 +54,15 @@
         </form>
  
         <h2>Results</h2>
+        <h4>
         <ul>
-            <% listings.forEach(function(item) { %>
-                <li><%= item.Title %> - <%= item.Category %></li>
+           <% listings.forEach(function(item) { %> 
+            <li><%= item.Title %> - <%= item.Description %> - <%= item.Category %> off</li> 
             <% }); %>
+            </h4>
         </ul>
     </main>
 
-
-    
+   
 </body>
 </html>
