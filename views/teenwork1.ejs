@@ -29,7 +29,8 @@
 
       <main>
         <div>
-            <h1> Welcome to Teenwork Training Manuals </h1>
+            <h2> Welcome to Teenwork Training Manuals </h2>
+            <center>   <img "images\ryan-165.jpg" alt= "ryan"> </img><center>
             <h4> Please Search for Training Manauls by Category<h4>
             </div>
         <form action="/query" method="post">
@@ -37,7 +38,7 @@
          <center>  <h3><p> Example "Disability" </p> <input id="queryStr" type="text" name="queryStr" placeholder="Enter Search"> 
             <button id="execute" type="submit">Find</button> </h3> </center>
         </form>
-         <h3 class= "red"> Title -  Description -  Category</h3>
+        <center> <h3 class= "red"> Title -  Description -  Category</h3> </center>
       <ul>
         <h3 class="red"> Results: </h3>
             <% Transportation.forEach(function(item) { %>
