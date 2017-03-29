@@ -51,7 +51,7 @@ app.post('/query', function(req, res) {
                 database: 'group6'
             });
             connection.connect();
-            var q = 'SELECT * FROM Training_Manuals WHERE Title LIKE "' + req.body.queryStr + '"';
+            var q = 'SELECT * FROM Training_Manuals WHERE Category LIKE "' + req.body.queryStr + '"';
             //console.log(q);
             connection.query(q, function(err, rows, fields) {
                 if (err) throw err;
@@ -92,7 +92,7 @@ app.get('/employers', function(req, res) {
     });
 });
 
-// about page 
+// teenwork1 page 
 app.get('/teenwork1', function(req, res) {
     var sentence = "this is a test about page, passed as a variable through ejs";
     var drinks = [
