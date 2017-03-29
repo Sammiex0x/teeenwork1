@@ -34,12 +34,14 @@
             <center> <h3 class="test"> Recent Updates on Category </h3> </center>
         </div>
         <form action="/query" method="post">
-                <label for="queryStr">Example "Disability" </label>
+       <h2> Example "Disability" </h2>
+                <label for="queryStr"> </label>
             <input id="queryStr" type="text" name="queryStr" placeholder="enter search">
             <button id="execute" type="submit">Find</button>
         </form>
  
         <h2>Results</h2>
+        <h2> Title * Category </h2>
         <ul>
             <% Transportation.forEach(function(item) { %>
                 <li><%= item.Title %> - <%= item.Category %></li>
