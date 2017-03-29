@@ -10,6 +10,8 @@ app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }));
 
+app.use(express.static('.'));
+
 // use res.render to load up an ejs view file
 var connection = mysql.createConnection({
     host: '206.12.96.242',
@@ -74,6 +76,20 @@ app.post('/query', function(req, res) {
 
 
 
+});
+
+// employers page 
+app.get('/employers', function(req, res) {
+    var sentence = "this is a test about page, passed as a variable through ejs";
+    var drinks = [
+        { name: 'bus' },
+        { name: 'walking' },
+        { name: 'parents driving' }
+    ];
+    res.render('employers', {
+        drinks: drinks,
+        sentence: sentence
+    });
 });
 
 // about page 
