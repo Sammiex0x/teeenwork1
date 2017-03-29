@@ -58,10 +58,10 @@ var locations = [
             alert("Latitude,Longitude:  48.467922,-123.310904");
        
         } else if (locations[i][2]) {
-            alert("Latitude,Longitude:  48.468146, -123.308372" + count);
+            alert("Latitude,Longitude:  48.468146, -123.308372");
          
         } else {
-            alert("Latitude,Longitude:  48.464948, -123.312175" + count)
+            alert("Latitude,Longitude:  48.464948, -123.312175" )
           
         };
         }
