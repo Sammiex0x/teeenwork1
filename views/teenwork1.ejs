@@ -38,11 +38,11 @@
          <center>  <h3><p> Examples: "Disability" "At Work" " Job Seeking" </p> <input id="queryStr" type="text" name="queryStr" placeholder="Enter Search"> 
             <button id="execute" type="submit">Find</button> </h3> </center>
         </form>
-        <center> <h3 class= "red"> Title -  Description -  Category</h3> </center>
+        <center> <h3 class= "red"> Title : Description -  Category</h3> </center>
       <ul>
         <h3 class="red"> Results: </h3>
             <% Transportation.forEach(function(item) { %>
-                <li><p><%= item.Title %> -<%= item.Description %> - <%= item.Category %></p></li>
+                <li><p><%= item.Title %> : <%= item.Description %> - <%= item.Category %></p></li>
             <% }); %>
         </ul>
             </main>
